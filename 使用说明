@@ -1,0 +1,16 @@
+PRM-DUL V4.0 Build4018:
+
+
+PRM-DUL 用户手册下载地址：http://7xl1jo.com2.z0.glb.qiniucdn.com/ParnassusData%20Recovery%20Manager%20For%20Oracle%20Database%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%20v0.3.pdf
+
+操作系统上必须已经安装JAVA JDK 1.6或以上版本才能运行PRM-DUL 4.0，请确保Unix/Linux上/bin/java已加入到PATH中。
+在确保图形化界面可用的情况下：
+在Windows上直接点击prm.bat
+在Linux/Unix上运行./prm.sh
+
+
+
+使用视频教程：
+
+使用ORACLE PRM-DUL快速恢复损坏的Oracle数据库、误drop/truncate的表和数据 http://www.tudou.com/programs/view/95ookzg78EY/
+
