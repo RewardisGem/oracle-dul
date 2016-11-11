@@ -1,0 +1,20 @@
+
+
+Please Ensure JDK 1.6 or later version has been installed . 
+
+Unix/Linix startup  :  ./prm.sh
+Windows             :  prm.bat
+
+PRM-DUL User Guide : http://7xl1jo.com2.z0.glb.qiniucdn.com/ORACLE%20PRM-DUL%20data%20unloader%20tool%20manual%200.4.pdf
+
+
+How to use PRM-DUL video
+
+Using ORACLE PRM-DUL recover undelete deleted records/rows from table  https://www.youtube.com/watch?v=EQeClR4sxUM
+PRM-DUL untruncate Oracle Tables ,recover truncated oracle table data  https://www.youtube.com/watch?v=p7KQVt0raro
+PRM For Oracle Database Schema Level DataBridge Key Feature            https://www.youtube.com/watch?v=XF57QJg89NI
+How to recover truncated table without backup in oracle                https://www.youtube.com/watch?v=z02YvkNP040
+PRM 3.1 For Oracle ASM Extract Datafile From Damaged ASM Disk group    https://www.youtube.com/watch?v=rum9euHYuzw
+
+
+more info can be find on http://www.parnassusdata.com/en
