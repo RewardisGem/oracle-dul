@@ -29,7 +29,7 @@ ParnassusData is an easy-to-use and high performance Oracle database recovery so
 PRM-DUL(data unloader) is designed for Enterprise Database Recovery, which includes all Oracle DUL data recovery functionalities, and also easy-to-use GUI.PRM almost can recovery Oracle database on all operating system, including:
 
 
-Linux (RedHat, Centos, Oracle Linux, Suse)，AIX, Solaris, HPUX, Windows 2003 Server/XP/2000/NT
+Linux (RedHat, Centos, Oracle Linux, Suse)，AIX, Solaris, HPUX, Windows 2003 Server/XP/2000/NT.
 
 PRM-DUL Support Oracle database which starts from 9i, 10g, 11g to 12c.
 
