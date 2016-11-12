@@ -1,8 +1,12 @@
 # oracle-dul-prm
 
 
-PRM-DUL is an Oracle Data Unloader , developed by Parnassus Data Inc. for Oracle database recovery.
-Currently the Oracle tool DUL is the only tool that can unload data from an Oracle DB when it's down or corrupted.
+PRM-DUL is an Oracle Data Unloader(  an Oracle Database Disaster Recovery Tool)  , developed by Parnassus Data Inc. for Oracle database recovery.
+PRM-DUL is available as a service or as a product. www.parnassusdata.com
+
+PRM-DUL can be used to extract data from database instances that cannot be started and that are effectively scrap. It can also be used as a fast method to extract data.
+
+
 
 Users can purchase PRM for its rich GUI on your recovery. Or, you can contact ParnassusData for professional service that is either onsite or remote for your request. Rich GUI wizard can guide your recovery process. PRM can recovery your data direct from your database file system (dirty read). If your data has not been covered, PRM can guarantee your 99.9% data back.
 
