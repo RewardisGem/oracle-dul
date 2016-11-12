@@ -17,14 +17,23 @@ ParnassusData is an easy-to-use and high performance Oracle database recovery so
 
 
   Direct extract data from your Table and Cluster
+  
   Unique DataBridge can send your data from source to destination without any manual work
+  
   Direct from database file, reliable
+  
   If SYSTEM table exists, Dict-Mode is fit for it, and provide tree diagram for data preview
+  
   If SYSTEM table was lost, PRM also can scan and review data
+  
   Database system recovery is not necessary, PRM can work around Archivelog
+  
   Even, part of data block is damaged, PRM can also recover available data
+  
   Tested from Oracle 9i to 12c
+  
   Based on JAVA development, at least JDK 1.4, no installation. Support OS: Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
+  
   Fully support ASM
 
 
