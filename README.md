@@ -54,7 +54,9 @@ PRM-DUL can support most of Oracle database functionalities for example, Cluster
 
 
 
+KEYWORD:
 
+ORACLE startup bootstrap undelete undrop untruncate corrupted corruption ORA-00600 ORA-01578 ORA-07445 damaged lost datafile system01.dbf tablespace recovery  without backup repair fix 
 
 Resource:			http://www.ParnassusData.com/resources/
 
