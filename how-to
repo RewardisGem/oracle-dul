@@ -1,6 +1,6 @@
 
 
-Please Ensure JDK 1.6 or later version has been installed . 
+Please ensure jdk 1.6 or later version has been installed . 
 
 Unix/Linix startup  :  ./prm.sh
 Windows             :  prm.bat
@@ -17,4 +17,4 @@ How to recover truncated table without backup in oracle                https://w
 PRM 3.1 For Oracle ASM Extract Datafile From Damaged ASM Disk group    https://www.youtube.com/watch?v=rum9euHYuzw
 
 
-more info can be find on http://www.parnassusdata.com/en
+more info can be found on http://www.parnassusdata.com/en
