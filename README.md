@@ -1,14 +1,18 @@
 # oracle-dul-prm
 
 
-PRM-DUL is an Oracle Data Unloader(  an Oracle Database Disaster Recovery Tool)  , developed by Parnassus Data Inc. for Oracle database recovery.
-PRM-DUL is available as a service or as a product. www.parnassusdata.com
+PRM-DUL is an oracle data unloader(an oracle database disaster recovery tool)  , developed by parnassusdata corp for oracle database recovery.
 
-PRM-DUL can be used to extract data from database instances that cannot be started and that are effectively scrap. It can also be used as a fast method to extract data.
-
+PRM-DUL is available as a service or as a product.
 
 
-Users can purchase PRM for its rich GUI on your recovery. Or, you can contact ParnassusData for professional service that is either onsite or remote for your request. Rich GUI wizard can guide your recovery process. PRM can recovery your data direct from your database file system (dirty read). If your data has not been covered, PRM can guarantee your 99.9% data back.
+PRM-DUL can be used to extract data from oracle database that cannot be started up and that are effectively scrap. It can also be used as a fast method to extract data.
+
+
+
+User can purchase PRM for its rich GUI on your recovery. Or, you can contact parnassusdata for professional remote service. Rich gui wizard can guide your recovery process. 
+
+PRM can unload your data directly from damaged file system (dirty read). If your data has not been overwritten , PRM will guarantee your 99.9% data can be restored.
 
 
 
@@ -16,23 +20,23 @@ Users can purchase PRM for its rich GUI on your recovery. Or, you can contact Pa
 ParnassusData is an easy-to-use and high performance Oracle database recovery software:
 
 
-  Direct extract data from your Table and Cluster
+  directly extract data from your table and cluster
   
-  Unique DataBridge can send your data from source to destination without any manual work
+  unique databridge can send your data from source to destination without any manual work
   
-  Direct from database file, reliable
+  direct from database file, reliable
   
-  If SYSTEM table exists, Dict-Mode is fit for it, and provide tree diagram for data preview
+  if system tablespace(system01.dbf) exists, dict-mode is fit for it, and provide tree diagram for data preview
   
-  If SYSTEM table was lost, PRM also can scan and review data
+  if system tablespace(system01.dbf) was lost, PRM can work under non-dict-mode, you can still unload your table 
   
-  Database system recovery is not necessary, PRM can work around Archivelog
+  oracle rolling forward(redo recovery) is no longer necessary, PRM can workaround redo logfile/archivelog
   
-  Even, part of data block is damaged, PRM can also recover available data
+  even part of data block is damaged, PRM can also recover available data inside the block
   
-  Tested from Oracle 9i to 12c
+  tested from oracle 9i to 12c
   
-  Based on JAVA development, at least JDK 1.4, no installation. Support OS: Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
+  build on java, at least JDK 1.6, no installation. Support OS: Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
   
   Fully support ASM
 
@@ -44,26 +48,24 @@ PRM-DUL(data unloader) is designed for Enterprise Database Recovery, which inclu
 
 Linux (RedHat, Centos, Oracle Linux, Suse)，AIX, Solaris, HPUX, Windows 2003 Server/XP/2000/NT.
 
-PRM-DUL Support Oracle database which starts from 9i, 10g, 11g to 12c.
+PRM-DUL supports Oracle database which starts from 9i, 10g, 11g to 12c.
 
 PRM-DUL can work on damaged file systems, ASM DiskGroup and data files. 
 
-Even if Oracle data dictionary lost, PRM can also scan and recover dictionary based on inconsistent SYSTEM.DBF tablespace backup. 
+Even if Oracle data dictionary lost, PRM can scan and recover dictionary based on inconsistent SYSTEM.DBF tablespace backup. 
 
-PRM-DUL can support most of Oracle database functionalities for example, Cluster, LOB, and partition. 
+PRM-DUL works with most of oracle database functionalities ,  for example:  cluster table , lob column(blob/clob) , and table partition. 
 
 
 
-KEYWORD:
+keyword :
 
-ORACLE databae db startup bootstrap undelete undrop untruncate corrupted corruption ORA-00600 ORA-01578 ORA-07445 damaged lost datafile system01.dbf tablespace recovery  without backup repair fix 
+oracle database db startup bootstrap undelete undrop untruncate corrupted corruption ORA-00600 ORA-01578 ORA-07445 damaged lost datafile system01.dbf tablespace recovery without backup repair fix 
 
-Resource:			http://www.ParnassusData.com/resources/
 
-Technical Support: 	service@ParnassusData.com
+technical support: 	service@ParnassusData.com
 
-Download PRM: 	http://www.ParnassusData.com/
+download PRM: 	http://www.parnassusdata.com/en
 
-Contact Us: 		http://www.parnassusdata.com/en
-
+contact Us: 		http://www.parnassusdata.com/en/contact
 
