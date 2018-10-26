@@ -36,25 +36,22 @@ ParnassusData is an easy-to-use and high performance Oracle database recovery so
   
   tested from oracle 9i to 12c
   
-  build on java, at least JDK 1.6, no installation. Support OS: Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
+  build on java, at least JDK 1.4.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
   
   Fully support ASM
 
 
 
 
-PRM-DUL(data unloader) is designed for Enterprise Database Recovery, which includes all Oracle DUL data recovery functionalities, and also easy-to-use GUI.PRM almost can recovery Oracle database on all operating system, including:
+PRM-DUL(data unloader) is designed for Enterprise Database Recovery, which includes all oracle dul data recovery function, and easy-to-use GUI. PRM can recovery oracle database on most of operating system, including:Linux (RedHat, Centos, Oracle Linux, Suse)，AIX, Solaris, HPUX, Windows 2003 Server/XP/2000/NT.
 
+PRM-DUL supports oracle database which starts from 9i, 10g, 11g to 12c.
 
-Linux (RedHat, Centos, Oracle Linux, Suse)，AIX, Solaris, HPUX, Windows 2003 Server/XP/2000/NT.
+PRM-DUL can work on damaged file systems, asm diskgroup and raw device.
 
-PRM-DUL supports Oracle database which starts from 9i, 10g, 11g to 12c.
+Even if oracle data dictionary lost, PRM can scan and recover dictionary based on inconsistent SYSTEM.DBF tablespace backup. 
 
-PRM-DUL can work on damaged file systems, ASM DiskGroup and data files. 
-
-Even if Oracle data dictionary lost, PRM can scan and recover dictionary based on inconsistent SYSTEM.DBF tablespace backup. 
-
-PRM-DUL works with most of oracle database functionalities ,  for example:  cluster table , lob column(blob/clob) , and table partition. 
+PRM-DUL works with most of oracle database function ,for example:  cluster table , lob column(blob/clob) , and table partition. 
 
 
 
