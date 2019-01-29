@@ -1,16 +1,55 @@
-PRM-DUL V4.0 Build4018:
+PRM-DUL 用户手册下载地址：http://zcdn.parnassusdata.com/prm03.pdf
 
-
-PRM-DUL 用户手册下载地址：http://7xl1jo.com2.z0.glb.qiniucdn.com/ParnassusData%20Recovery%20Manager%20For%20Oracle%20Database%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%20v0.3.pdf
-
-操作系统上必须已经安装JAVA JDK 1.6或以上版本才能运行PRM-DUL 4.0，请确保Unix/Linux上/bin/java已加入到PATH中。
+操作系统上必须已经安装JAVA JDK 1.8或以上版本才能运行PRM-DUL 5.1，请确保LINUX/UNIX上/bin/java已加入到PATH中。
 在确保图形化界面可用的情况下：
 在Windows上直接点击prm.bat
-在Linux/Unix上运行./prm.sh
+在LINUX/UNIX上执行命令行: sh prm.sh
 
 
 
 使用视频教程：
 
-使用ORACLE PRM-DUL快速恢复损坏的Oracle数据库、误drop/truncate的表和数据 http://www.tudou.com/programs/view/95ookzg78EY/
+https://v.youku.com/v_show/id_XNzU0NTQ1ODE2.html
+https://v.youku.com/v_show/id_XMzg4NjQ2MjkxNg==.html
+
+
+
+JDK 1.8 DOWNLOAD URL:
+AIX JAVA SDK: http://zcdn.parnassusdata.com/Java8_64.sdk.8.0.0.527.tar.gz
+AIX JRE: http://zcdn.parnassusdata.com/Java8_64.jre.8.0.0.527.tar.gz
+LINUX X86: http://zcdn.parnassusdata.com/jdk-8u201-linux-i586.rpm
+LIUNX X86-64: http://zcdn.parnassusdata.com/jdk-8u91-linux-x64.rpm
+Windows X86: http://zcdn.parnassusdata.com/jdk-8u201-windows-i586.exe
+Windows X86-64: http://zcdn.parnassusdata.com/jdk-8u181-windows-x64.exe
+HPUX Itanium: http://zcdn.parnassusdata.com/Itanium_JDK_8.0.16_December_2018_Z7550-63506_java8_18016_ia.depot
+
+
+
+
+
+squirrel-sql-3.9.0: http://zcdn.parnassusdata.com/squirrel-sql-3.9.0-standard.jar
+db-derby-10.14.2.0: http://zcdn.parnassusdata.com/db-derby-10.14.2.0-bin.zip
+
+Derby IJ Connection setting:
+
+Windows:
+C:\> set DERBY_INSTALL=C:\Apache\db-derby-10.14.2.0-bin
+C:\> set CLASSPATH=%DERBY_INSTALL%\lib\derby.jar;%DERBY_INSTALL%\lib\derbytools.jar;.
+C:\> cd %DERBY_INSTALL%\bin
+C:\Apache\db-derby-10.14.2.0-bin\bin> setEmbeddedCP.bat
+
+LINUX/UNIX
+$ export DERBY_INSTALL=/opt/Apache/db-derby-10.14.2.0-bin
+$ export CLASSPATH=$DERBY_INSTALL/lib/derby.jar:$DERBY_INSTALL/lib/derbytools.jar:.
+$ cd $DERBY_INSTALL/bin
+$ . setEmbeddedCP
+
+
+java org.apache.derby.tools.sysinfo
+
+java org.apache.derby.tools.ij
+
+connect 'jdbc:derby:\dbinfo\parnassus_dbinfo_DB_20190127144050';
+show schemas;
+show tables;
 
