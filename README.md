@@ -10,14 +10,12 @@ PRM-DUL can be used to extract data from oracle database that cannot be started 
 
 
 
-User can purchase PRM for its rich GUI on your recovery. Or, you can contact parnassusdata for professional remote service. Rich gui wizard can guide your recovery process. 
 
-PRM can unload your data directly from damaged file system (dirty read). If your data has not been overwritten , PRM will guarantee your 99.9% data can be restored.
-
+PRM can unload your data directly from damaged file system (dirty read). If your data has not been overwritten , PRM can read it .
 
 
 
-ParnassusData is an easy-to-use and high performance Oracle database recovery software:
+PRM-DUL is an easy-to-use and high performance Oracle database recovery software:
 
 
   directly extract data from your table and cluster
@@ -32,20 +30,20 @@ ParnassusData is an easy-to-use and high performance Oracle database recovery so
   
   oracle rolling forward(redo recovery) is no longer necessary, PRM can workaround redo logfile/archivelog
   
-  even part of data block is damaged, PRM can also recover available data inside the block
+  even part of data block is damaged, PRM can still recover available data inside the block
   
-  tested from oracle 9i to 12c
+  tested from oracle 9i to 18c
   
-  build on java, at least JDK 1.4.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
+  build on java, at least JDK 1.8.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
   
-  Fully support ASM
+  support ASM
 
 
 
 
 PRM-DUL(data unloader) is designed for Enterprise Database Recovery, which includes all oracle dul data recovery function, and easy-to-use GUI. PRM can recovery oracle database on most of operating system, including:Linux (RedHat, Centos, Oracle Linux, Suse)，AIX, Solaris, HPUX, Windows 2003 Server/XP/2000/NT.
 
-PRM-DUL supports oracle database which starts from 9i, 10g, 11g to 12c.
+PRM-DUL supports oracle database which starts from 9i, 10g, 11g to 12c/18c/19c
 
 PRM-DUL can work on damaged file systems, asm diskgroup and raw device.
 
