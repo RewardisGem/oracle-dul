@@ -1,17 +1,12 @@
 # oracle-dul-prm
 
 
-PRM-DUL is an oracle data unloader(an oracle database disaster recovery tool)  , developed by parnassusdata corp for oracle database recovery.
+PRM-DUL is an oracle data unloader(an oracle database disaster recovery tool)  , developed by parnassusdata for oracle database recovery.
 
 PRM-DUL is available as a service or as a product.
 
 
-PRM-DUL can be used to extract data from oracle database that cannot be started up and that are effectively scrap. It can also be used as a fast method to extract data.
-
-
-
-
-PRM can unload your data directly from damaged file system (dirty read). If your data has not been overwritten , PRM can read it .
+PRM-DUL can be used to extract data from oracle database that cannot be opened by oracle instance .PRM can unload your data directly from damaged file system (dirty read). If your data has not been overwritten , PRM can read it .
 
 
 
@@ -55,7 +50,7 @@ PRM-DUL works with most of oracle database function ,for example:  cluster table
 
 keyword :
 
-oracle database db startup bootstrap undelete undrop untruncate corrupted corruption ORA-00600 ORA-01578 ORA-07445 damaged lost datafile system01.dbf tablespace recovery without backup repair fix 
+oracle database db startup bootstrap undelete undrop untruncate corrupted corruption ORA-00600 ORA-01578 ORA-07445 damaged lost datafile system01.dbf tablespace recovery without backup repair fix lost archivelog media failure 
 
 
 technical support: 	service@ParnassusData.com
