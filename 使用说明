@@ -1,6 +1,7 @@
 PRM-DUL 用户手册下载地址：http://zcdn.parnassusdata.com/prm03.pdf
 
 操作系统上必须已经安装JAVA JDK 1.8或以上版本才能运行PRM-DUL 5.1，请确保LINUX/UNIX上/bin/java已加入到PATH中。
+这是一个GUI程序，当在Linux上使用时，确保能启动远程图形化桌面，例如至少你应当能启动xclock或gnome-terminal。
 在确保图形化界面可用的情况下：
 在Windows上直接点击prm.bat
 在LINUX/UNIX上执行命令行: sh prm.sh
@@ -9,9 +10,17 @@ PRM-DUL 用户手册下载地址：http://zcdn.parnassusdata.com/prm03.pdf
 
 使用视频教程：
 
-https://v.youku.com/v_show/id_XNzU0NTQ1ODE2.html
-https://v.youku.com/v_show/id_XMzg4NjQ2MjkxNg==.html
-
+prm dul恢复oracle数据库最简模式                                              http://zcdn.parnassusdata.com/prm%20dul%20recover%20oracle%20database%20easiest%20way.mp4
+prm dul使用数据搭桥传输Oracle表数据                                          http://zcdn.parnassusdata.com/prm%20dul%20databridge%20transfer%20oracle%20table.mp4
+prm dul在损坏数据库使用exportddl导出建表语句、索引、存储过程、函数等代码      http://zcdn.parnassusdata.com/prm%20dul%20export%20ddl%20from%20corrupted%20oracle%20database.mp4
+prm dul恢复oracle中被delete的数据                                            http://zcdn.parnassusdata.com/prm%20dul%20recover%20oracle%20deleted%20rows.mp4
+prm dul恢复oracle中被truncate的数据                                          http://zcdn.parnassusdata.com/prm%20dul%20recover%20oracle%20truncated%20table.mp4
+prm dul用户级别的数据搭桥                                                    http://zcdn.parnassusdata.com/prm%20dul%20schema%20level%20databridge.mp4
+prm dul在ASM存储情况下的最简模式                                             http://zcdn.parnassusdata.com/prm%20dul%20easiest%20way%20with%20ASM%20storage.mp4
+prm dul恢复oracle中被drop掉的表                                              http://zcdn.parnassusdata.com/prm%20dul%20recover%20oracle%20dropped%20table.mp4
+prm dul恢复oracle 12c以后可拔插数据库PDB/CDB中的数据                         http://zcdn.parnassusdata.com/prm%20dul%20work%20with%20oracle%2012c%20pdb%20pluggable%20database%20container%20database.mp4
+prm dul恢复被恶意加密的Oracle数据文件                                        http://zcdn.parnassusdata.com/prm%20dul%20recover%20malware%20ransomware%20corrupted%20oracle%20datafile.mp4
+prmscan oracle数据块重组恢复解决方案                                         http://zcdn.parnassusdata.com/prmscan.mp4
 
 
 JDK 1.8 DOWNLOAD URL:
