@@ -13,25 +13,25 @@ PRM-DUL can be used to extract data from oracle database that cannot be opened b
 PRM-DUL is an easy-to-use and high performance Oracle database recovery software:
 
 
-  directly extract data from your table and cluster
+  1.directly extract data from your table and cluster
   
-  unique databridge can send your data from source to destination without any manual work
+  2.unique databridge can send your data from source to destination without any manual work
   
-  direct from database file, reliable
+  3.direct from database file, reliable
   
-  if system tablespace(system01.dbf) exists, dict-mode is fit for it, and provide tree diagram for data preview
+  4.if system tablespace(system01.dbf) exists, dict-mode is fit for it, and provide tree diagram for data preview
   
-  if system tablespace(system01.dbf) was lost, PRM can work under non-dict-mode, you can still unload your table 
+  5.if system tablespace(system01.dbf) was lost, PRM can work under non-dict-mode, you can still unload your table 
   
-  oracle rolling forward(redo recovery) is no longer necessary, PRM can workaround redo logfile/archivelog
+  6.oracle rolling forward(redo recovery) is no longer necessary, PRM can workaround redo logfile/archivelog
   
-  even part of data block is damaged, PRM can still recover available data inside the block
+  7.even part of data block is damaged, PRM can still recover available data inside the block
   
-  tested from oracle 9i to 18c
+  8.tested from oracle 9i to 18c
   
-  build on java, at least JDK 1.8.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
+  9.build on java, at least JDK 1.8.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
   
-  support ASM
+  10.support ASM
 
 
 
