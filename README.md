@@ -35,7 +35,6 @@ keyword :
 oracle database db startup bootstrap undelete undrop untruncate corrupted corruption ORA-00600 ORA-01578 ORA-07445 damaged lost datafile system01.dbf tablespace recovery without backup repair fix lost archivelog media failure 
 
 
-technical support: 	service@ParnassusData.com
-download PRM: 	http://www.parnassusdata.com/en
-contact Us: 		http://www.parnassusdata.com/en/contact
+- contact us  : 	service@parnassusData.com
+- download PRM: 	http://www.parnassusdata.com/en
 
