@@ -14,26 +14,15 @@ PRM-DUL is an easy-to-use and high performance Oracle database recovery software
 
 
   - directly extract data from your table and cluster
-  
   - unique databridge can send your data from source to destination without any manual work
-  
-  3.direct from database file, reliable
-  
-  4.if system tablespace(system01.dbf) exists, dict-mode is fit for it, and provide tree diagram for data preview
-  
-  5.if system tablespace(system01.dbf) was lost, PRM can work under non-dict-mode, you can still unload your table 
-  
-  6.oracle rolling forward(redo recovery) is no longer necessary, PRM can workaround redo logfile/archivelog
-  
-  7.even part of data block is damaged, PRM can still recover available data inside the block
-  
-  8.tested from oracle 9i to 18c
-  
-  9.build on java, at least JDK 1.8.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
-  
-  10.support ASM
-
-
+  - direct from database file, reliable
+  - if system tablespace(system01.dbf) exists, dict-mode is fit for it, and provide tree diagram for data preview
+  - if system tablespace(system01.dbf) was lost, PRM can work under non-dict-mode, you can still unload your table 
+  - prm do directry read , what will skip rolling forward/back.
+  - even part of data block is damaged, PRM can still recover available data inside the block
+  - tested from oracle 8i to 19c
+  - build on java, at least JDK 1.8.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat、OEL、SUSE) and Windows
+  - support ASM
 
 
 PRM-DUL(data unloader) is designed for Enterprise Database Recovery, which includes all oracle dul data recovery function, and easy-to-use GUI. PRM can recovery oracle database on most of operating system, including:Linux (RedHat, Centos, Oracle Linux, Suse)，AIX, Solaris, HPUX, Windows 2003 Server/XP/2000/NT.
@@ -54,8 +43,6 @@ oracle database db startup bootstrap undelete undrop untruncate corrupted corrup
 
 
 technical support: 	service@ParnassusData.com
-
 download PRM: 	http://www.parnassusdata.com/en
-
 contact Us: 		http://www.parnassusdata.com/en/contact
 
