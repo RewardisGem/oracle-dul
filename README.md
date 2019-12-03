@@ -36,5 +36,5 @@ oracle database db startup bootstrap undelete undrop untruncate corrupted corrup
 
 
 - contact us  : 	service@parnassusData.com
-- download PRM: 	http://www.parnassusdata.com/en
+- download PRM: 	https://www.parnassusdata.com/en
 
