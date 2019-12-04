@@ -12,7 +12,7 @@ PRM-DUL can be used to extract data from oracle database that cannot be opened b
 
 PRM-DUL is an easy-to-use and high performance Oracle database recovery software:
 
-  - designed for Enterprise Database Recovery
+  - designed for enterprise oracle database recovery
   - includes all oracle dul data recovery function, and easy-to-use GUI
   - directly extract table data from oracle datafiles
   - unique databridge can send your data from source to destination without any manual work
