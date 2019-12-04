@@ -20,7 +20,7 @@ PRM-DUL is an easy-to-use and high performance Oracle database recovery software
   - if system tablespace(system01.dbf) exists, dict-mode is fit for it, and provide tree diagram for data preview
   - if system tablespace(system01.dbf) was lost, PRM can work under non-dict-mode, you can still unload your table 
   - Even if oracle data dictionary lost , can scan and recover dictionary based on inconsistent SYSTEM.DBF tablespace backup
-  - prm do directry read , what will skip rolling forward/back.
+  - dirty read , what will skip rolling forward/back.
   - even part of data block is damaged, PRM can still recover available data inside the block
   - tested from oracle 8i to 19c
   - build on java, at least JDK 1.8.  support os : Unix (AIX, HPUX, Solaris), Linux (RedHat , Centos , OEL, SUSE) and Windows
